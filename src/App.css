@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+  box-sizing: border-box;
+}
+.navbar-nav-scroll{
+  --bs-scroll-height: 500px;
+}
+
+.navbar-brand{
+  font-family: 'PT Serif', serif;
+  color: rgb(153, 164, 0);
+  /* color: rgb(0, 152, 208); */
+  }
+.navbar-brand:hover{
+  color: rgba(0, 65, 88, 0.391);
+}
+#formheading{
+  padding: 10px 0;
+  margin: 0;
+}
+#myBox{
+  font-size: 15px;
+}
+.btn{
+  border: none;
+}
+.form-check{
+  width: 50%;
+}
